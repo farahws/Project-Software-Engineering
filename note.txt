@@ -1,0 +1,15 @@
+Hotel Icon :
+<a href="https://www.flaticon.com/free-icons/hotel" title="hotel icons">Hotel icons created by Freepik - Flaticon</a>
+
+Restaurant Icon :
+<a href="https://www.flaticon.com/free-icons/restaurant-building" title="restaurant building icons">Restaurant building icons created by Freepik - Flaticon</a>
+
+Airplane Icom for Logo :
+<a href="https://www.flaticon.com/free-icons/plane" title="plane icons">Plane icons created by Freepik - Flaticon</a>
+
+Artikel // Pas di bawah home
+
+kuliner / wisata / shop / permainan
+
+<!--Start Categories Section-->
+<!--End Categories Section-->
