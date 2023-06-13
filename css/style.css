@@ -61,30 +61,16 @@ header {
     color: var(--second-color);
 }
 
-.header-icons {
-    display: flex;
-    align-items: center;
-}
-
-.header-icons i {
-    margin-left: 10px;
-    font-size: 24px;
-    color: var(--text-color);
+.signBtn a {
+    color: var(--bg-color);
+    font-weight: 500;
+    font-size: var(--p-font);
+    padding: 10px 15px;
     transition: all .40s ease;
-    margin-right: 15px;
 }
 
-.header-icons i:hover {
-    transform: scale(1.2);
+.signBtn a:hover {
     color: var(--fourth-color);
-}
-
-#menu-icon {
-    font-size: 34px;
-    color: var(--text-color);
-    z-index: 10001;
-    cursor: pointer;
-    display: none;
 }
 
 section {
@@ -149,7 +135,7 @@ section {
     padding: 16px 40px;
     border-radius: 30px;
     cursor: pointer;
-    top: 2px;
+    top: 1px;
     right: 1px;
 }
 
@@ -521,4 +507,171 @@ header.sticky {
     .home {
         height: 120vh;
     }
+}
+
+.signBtn {
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 15px;
+    font-weight: 500;
+    background: var(--main-color);
+    color: var(--bg-color);
+    border-radius: 30px;
+    transition: all 0.3s ease 0s;
+    cursor: pointer;
+    border: none;
+}
+
+/*Log In & Register CSS*/
+
+.form_container {
+    position: absolute;
+    max-width: 600px;
+    width: 100%;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 101;
+    background: #ffffff;
+    padding: 35px;
+    border-radius: 20px;
+    box-shadow: rgba(0, 0, 0, 0.1);
+    opacity: 0;
+    pointer-events: none;
+    height: 500px;
+}
+
+.home.show .form_container {
+    opacity: 1;
+    pointer-events: auto;
+}
+
+.signUp_form {
+    display: none;
+}
+/*
+.form_close {
+    position: absolute;
+    top: 10px;
+    right: 20px;
+    color: #0b0217;
+    font-size: 22px;
+    opacity: 0.7;
+    cursor: pointer;
+}
+*/
+.form_container h2 {
+    font-size: 22px;
+    color: #0b0217;
+    text-align: center;
+}
+
+.input_box {
+    position: relative;
+    margin-top: 50px;
+    width: 100%;
+    height: 40px;
+}
+
+.input_box input {
+    height: 100%;
+    width: 100%;
+    border: none;
+    outline: none;
+    padding: 0 30px;
+    color: #20201f;
+    transition: all 0.2s ease;
+    border-bottom: 1.5px solid #a49e23;
+    font-weight: 600;
+}
+
+.input_box input:focus {
+    border-color: #1B3A4C;
+}
+
+.input_box i {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    font-size: 20px;
+}
+
+.input_box i.email,
+.input_box i.password {
+    left: 0;
+    color: #a49e23;
+}
+
+.input_box input:focus~i.email,
+.input_box input:focus~i.password {
+    color: #1B3A4C;
+}
+
+.input_box i.pw_hide {
+    right: 0;
+    font-size: 18px;
+}
+
+.option_field {
+    margin-top: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.form_container a {
+    color: #a49e23;
+    font-size: 13px;
+    font-weight: 500;
+}
+
+.form_container a:hover {
+    text-decoration: underline;
+}
+
+.checkbox {
+    display: flex;
+    column-gap: 8px;
+    white-space: nowrap;
+    
+}
+
+.checkbox input {
+    accent-color: #a49e23;
+}
+
+.checkbox label {
+    font-size: 13px;
+    font-weight: 500;
+    cursor: pointer;
+    user-select: none;
+    color: #20201f;
+}
+
+.form_container .button {
+    background-color: #FFEE55;
+    margin-top: 50px;
+    width: 100%;
+    padding: 10px 0;
+    border-radius: 50px;
+    border: none;
+    font-size: 15px;
+    font-weight: 600;
+}
+
+.login_signup {
+    font-size: 14px;
+    text-align: center;
+    margin-top: 35px;
+    font-weight: 400;
+}
+
+.form_back {
+    position: absolute;
+    top: 30px;
+    left: 40px;
+    color: #B09156;
+    font-size: 30px;
+    opacity: 0.9;
+    cursor: pointer;
 }

@@ -43,3 +43,80 @@ body {
     min-height: 100vh;
     background: var(--main-color);
 }
+
+## Dari index.html ##
+
+<!--Start Container
+    <section class="container">
+        <div class="container-box">
+            <div class="container-img">
+                <img src="img/key.png" alt="">
+            </div>
+            <div class="container-text">
+                <h4>1K</h4>
+                <p>Accomodation</p>
+            </div>
+        </div>
+
+        <div class="container-box">
+            <div class="container-img">
+                <img src="img/menu.png" alt="">
+            </div>
+            <div class="container-text">
+                <h4>1K</h4>
+                <p>Culinary</p>
+            </div>
+        </div>
+
+        <div class="container-box">
+            <div class="container-img">
+                <img src="img/tour.png" alt="">
+            </div>
+            <div class="container-text">
+                <h4>1K</h4>
+                <p>Tour</p>
+            </div>
+        </div>
+
+        <div class="container-box">
+            <div class="container-img">
+                <img src="img/beach.png" alt="">
+            </div>
+            <div class="container-text">
+                <h4>1K</h4>
+                <p>Nature Tourism</p>
+            </div>
+        </div>
+    </section>
+    End Container-->
+
+
+    icons
+
+    <!--<div class="header-icons">
+            <a href="#"><i class='bx bx-user'></i></a>
+            <a href=""><i class='bx bx-heart'></i></a>
+            <a href=""><i class='bx bx-search'></i></a>
+            <div class="bx bx-menu" id="menu-icon"></div>
+        </div>-->
+
+
+        /*
+.header-icons {
+    display: flex;
+    align-items: center;
+}
+
+.header-icons i {
+    margin-left: 10px;
+    font-size: 24px;
+    color: var(--text-color);
+    transition: all .40s ease;
+    margin-right: 15px;
+}
+
+.header-icons i:hover {
+    transform: scale(1.2);
+    color: var(--fourth-color);
+}
+*/
