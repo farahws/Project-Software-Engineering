@@ -1,23 +1,10 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@100;200;300;400;500;600;700&family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
 * {
-    padding: 0;
     margin: 0;
+    padding: 0;
     box-sizing: border-box;
     font-family: 'Montserrat', sans-serif;
-    list-style: none;
-    text-decoration: none;
-    scroll-behavior: smooth;
-}
-
-:root {
-    --bg-color: #ffffff;
-    --text-color: #20201f;
-    --second-color: #B09156;
-    --main-color: #1B3A4C;
-    --third-color: #FFEE55;
-    --fourth-color: #a49e23;
-    --big-font: 3.8rem;
-    --h2-font: 2.6rem;
-    --p-font: 1rem;
 }
 
 body {
@@ -25,7 +12,7 @@ body {
     justify-content: center;
     align-items: center;
     min-height: 100vh;
-    background: var(--main-color);
+    background: #1B3A4C;
 }
 
 .wrapper {
@@ -47,23 +34,23 @@ body {
 
 h2 {
     font-size: 30px;
-    color: var(--bg-color);
+    color: #fff;
     text-align: center;
 }
 
 .input-group {
     position: relative;
-    margin: 30px, 0;
-    border-bottom: 2px solid var(--bg-color);
+    margin: 40px 0;
+    border-bottom: 2px solid #fff;
 }
 
 .input-group label {
     position: absolute;
-    top: 50%;
-    left: 5px;
-    transform: translateY(-50%);
-    font-size: 16px;
-    color: var(--bg-color);
+    top: 31%;
+    left: 3px;
+    transform: translateY(-13%);
+    font-size: 14px;
+    color: #fff;
     pointer-events: none;
     transition: .5s;
 }
@@ -72,7 +59,7 @@ h2 {
     width: 320px;
     height: 40px;
     font-size: 16px;
-    color: var(--bg-color);
+    color: #fff;
     padding: 0 5px;
     background: transparent;
     border: none;
@@ -89,21 +76,21 @@ h2 {
 }
 
 .remember label {
-    color: var(--bg-color);
+    color: #fff;
     font-size: 14px;
 }
 
 .remember label input {
-    accent-color: var(--third-color);
+    accent-color: #B09156;
 }
 
 button {
     position: relative;
     width: 100%;
     height: 40px;
-    background: var(--third-color);
+    background: #FFEE55;
     font-size: 16px;
-    color: var(--text-color);
+    color: #1B3A4C;
     cursor: pointer;
     border-radius: 30px;
     border: none;
@@ -117,11 +104,11 @@ button {
 }
 
 .signUp-link p {
-    color: var(--bg-color);
+    color: #fff;
 }
 
 .signUp-link p a {
-    color: var(--fourth-color);
+    color: #a49e23;
     text-decoration: none;
     font-weight: 500;
 }
@@ -132,7 +119,7 @@ button {
 
 .social-platform {
     font-size: 14px;
-    color: var(--bg-color);
+    color: #fff;
     text-align: center;
 }
 
@@ -141,7 +128,7 @@ button {
     width: 35px;
     height: 35px;
     background: transparent;
-    border: 1px solid var(--bg-color);
+    border: 1px solid #B09156;
     border-radius: 50%;
     text-align: center;
     line-height: 35px;
@@ -150,11 +137,24 @@ button {
 }
 
 .social-icons a:hover {
-    background: var(--bg-color);
+    background-color: #fff;
 }
 
 .social-icons a i {
-    color: var(--bg-color);
+    color: #B09156;
     font-size: 14px;
     transition: .3s;
+}
+
+.social-icons a:hover i {
+    color: rgba(165, 129, 56, 0.463);
+}
+
+:root {
+    --bg-color: #ffffff;
+    --text-color: #20201f;
+    --second-color: #B09156;
+    --main-color: #1B3A4C;
+    --third-color: #FFEE55;
+    --fourth-color: #a49e23;
 }
