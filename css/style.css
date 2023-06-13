@@ -107,17 +107,18 @@ section {
 .home-text h1 {
     font-size: var(--big-font);
     margin: 15px 0 15px;
+    color: var(--fourth-color);
 }
 
 .home-text h6 {
-    color: var(--main-color);
+    color: var(--text-color);
     font-size: 18px;
     font-weight: 600;
     letter-spacing: 2px;
 }
 
 .home-text p {
-    color: var(--fourth-color);
+    color: var(--main-color);
     font-size: var(--p-font);
     font-weight: 500;
     margin-bottom: 48px;
@@ -229,6 +230,22 @@ header.sticky {
 .main-btn {
     text-align: center;
     margin-top: 6rem;
+}
+
+.budget-btn {
+    text-align: left;
+    margin-top: 5rem;
+}
+
+.budgetBtn {
+    display: inline-block;
+    padding: 20px 40px;
+    font-size: 20px;
+    font-weight: 600;
+    background: var(--second-color);
+    color: var(--bg-color);
+    border-radius: 30px;
+    transition: all .30s ease;
 }
 
 .btn {
