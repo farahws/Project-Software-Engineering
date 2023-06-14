@@ -659,6 +659,18 @@ header.sticky {
     font-weight: 600;
 }
 
+.form_container .button a {
+    color: #1B3A4C;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.form_container .button a:hover {
+    text-decoration: none;
+    color: #B09156;
+    transition: all 0.2s ease;
+}
+
 .login_signup {
     font-size: 14px;
     text-align: center;
